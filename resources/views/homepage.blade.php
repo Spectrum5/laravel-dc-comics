@@ -1,4 +1,7 @@
 @extends('layout.main')
 
-@section('content')
+@section('title')
+
+<h1>For all data</h1>
+
 @endsection
