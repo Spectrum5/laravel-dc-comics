@@ -21,7 +21,7 @@
                     <td>
                         <button type="submit"><a href="{{ route('comics.show', $comic) }}">detail</a></button>
                         <button><a href="{{ route('comics.edit', $comic) }}">edit</a></button>
-                        <form class="my-form" action="{{ route('comics.destroy', $comic) }}" method="POST">
+                        <form  onsubmit="return confirm('Sei sicuro di voler cancellare?')" class="my-form" action="{{ route('comics.destroy', $comic) }}" method="POST">
                             @csrf
                             @method('DELETE')
                             <button type="submit" title="delete">delete</button>
