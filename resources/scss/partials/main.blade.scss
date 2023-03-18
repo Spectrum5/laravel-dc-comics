@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(15, 47, 59);
+    color: rgb(43, 137, 226);
+    header {
+        text-align: center;
+        margin: 50px 0px;
+        a {
+            font-size: 2rem;
+        }
+    }
+    main {
+        width: 1200px;
+        margin: auto;
+
+        .all-date {
+            text-align: center;
+            font-size: 2rem;
+        }
+    }
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(43, 137, 226);
+}

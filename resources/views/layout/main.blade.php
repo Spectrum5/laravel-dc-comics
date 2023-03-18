@@ -16,6 +16,10 @@
         
         <main>
             @yield('content')
+            
+            <div class="all-date">
+                <a href="{{ route('comics.index') }}">All date</a>
+            </div>
         </main>
 
     </body>
